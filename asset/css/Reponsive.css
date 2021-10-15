@@ -1,0 +1,167 @@
+/* -------Mobile---------- */
+/* Mobile: width < 740px */
+@media only screen and (max-width: 46.1875em) {
+    .home__slider-heading h1 {
+        font-size: 30px;
+    }
+
+    .slider-items {
+        height: 350px;
+    }
+
+    .nav__pc {
+        padding: 10px 0;
+    }
+
+    .ftco-section {
+        padding: 55px 0;
+    }
+
+    .alo-phone {
+        font-size: 25px;
+    }
+
+    .mt-60 {
+        margin-top: 60px !important;
+    }
+
+    .heading__section .sub-heading {
+        font-size: 70px;
+        top: -35px;
+    }
+
+    .heading__section .main-heading {
+        font-size: 30px;
+
+    }
+
+    .list-cheft-mobile {
+        display: block !important;
+    }
+
+    .list-cheft-pc {
+        display: none !important;
+    }
+
+    .nav__pc-scoll .nav__bars-btn {
+        color: #333;
+    }
+
+    .img-top {
+        width: 185px;
+        height: 260px;
+    }
+
+    .img-bottom {
+        width: 185px;
+        height: 260px;
+    }
+
+    .wrap-reverse {
+        flex-wrap: wrap-reverse !important;
+    }
+
+    /* about */
+    .slider__page {
+        height: 320px;
+    }
+
+    .slider__page-title {
+        font-size: 45px;
+    }
+
+    /* about */
+    /* Menu */
+    .tab-item.active::before {
+        display: none;
+    }
+
+    .tab-item {
+        background-color: #f6f1e9;
+        margin-bottom: 4px;
+    }
+    .content-right{
+        padding:0 10px 0 10px;
+    }
+    /* Cart */
+    th,
+    td {
+        text-align: left;
+        padding: 35px 10px;
+    }
+
+    .cart__table thead tr th {
+        font-size: 17px;
+    }
+
+    .food-name-cart {
+        font-size: 13px;
+    }
+    .cart-img{
+       
+        margin-right: 10px;
+    }
+    .cart__quatity input {
+        font-size: 14px;
+        width: 50px;
+    }
+    .cart__total{
+        font-size:13px;
+    }
+    .cart__quatity .qtybtn{
+        width:50px;
+        display: block;
+    }
+    .cart__btn-action a{
+        font-size: 12px;
+    }
+    .cart__btn-action i{    
+        font-size: 16px;       
+    }
+
+    /* End Cart */
+
+}
+
+/* -------Table---------- */
+/* Tablet: width >= 740px and width < 1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .home__slider-heading h1 {
+        font-size: 40px;
+    }
+
+    .slider-items {
+        height: 500px;
+    }
+
+    .nav__mobile {
+        width: 60%;
+    }
+
+    /* about */
+    .service-container {
+
+        padding-bottom: 60px;
+    }
+
+    .wrap-reverse {
+        flex-wrap: wrap-reverse !important;
+    }
+}
+
+
+/* -------Phone and table---------- */
+@media only screen and (max-width: 63.9375em) {
+    .header__top {
+        display: none;
+    }
+
+    .list__menu {
+        position: static;
+    }
+
+    .food_info h3,
+    .food_info p {
+        color: #333;
+    }
+}
